@@ -89,7 +89,7 @@ final class EventPayload
             }
         }
 
-        $this->catcherVersion = PrettyVersions::getVersion('codex-team/hawk.php')->getPrettyVersion();
+        $this->catcherVersion = PrettyVersions::getVersion('epictest/hawk.php')->getPrettyVersion();
     }
 
     /**
